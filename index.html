@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Deals for the the Day !</title>
+    <link rel="stylesheet" href="/graphics/style.css">
+    <script src="js/main.js" async> </script>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <section>
+
+    </section>
+    <!--From google -->
+    <div id="map"></div>
+    <script>
+    // Initialize and add the map
+    function initializeMap() {
+      var barrie = {lat: 44.390107, lng: -79.687006};
+      // Focus Barrie
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 10, center: barrie});
+      // The marker, positioned at Barrie
+      var marker = new google.maps.Marker({position: barrie, map: map});
+    }
+    </script>
+    <!--Referes to google maps api, but dosent have a api key, so it displays as "For development purpose only"-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initializeMap" async defer></script>
+  </body>
+</html>

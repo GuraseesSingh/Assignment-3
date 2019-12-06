@@ -1,0 +1,65 @@
+{
+"companyName" : "Cool Deals Co.",
+  "deals" : [
+    {
+      "name" : "1,500 live ladybugs",
+      "price" : 3.05,
+      "dealDescription" : "1,500 crawling, flying live ladybugs",
+      "itemFeatures" : [
+        "Guaranteed Live Delivery!",
+        "Larvae are black alligator looking crawling insects with orange spots",
+        "Including; Aphids, Moth eggs, Mites, Scales, Thrips",
+        "Fresh and alive"
+      ],
+      "image": "ladybugs.jpg"
+    },
+
+  {
+    "name" : "Uranium ore",
+    "price" : 39.95,
+    "dealDescription" : "Uranium Ore from Naturally Ocurring Radioactive Materials",
+    "itemFeatures" : [
+      "Radioactive Ore Sample (NORM) Naturally Occurring Radioactive Materials",
+      "Useful for testing Geiger counters and performing nuclear experiments",
+      "Shipping compiles to NRC and postal regulations"
+    ],
+    "image": "uranium.jpg"
+  },
+
+  {
+    "name" : "Dill pickle lip balm",
+    "price" : 11.95,
+    "dealDescription" : "Makes mouths to be minty fresh, or sweetly scented.",
+    "itemFeatures" : [
+      "IT’S DILL-ICIOUS – Sweet pickles ",
+      "FUNNY GIFT FOR PICKLE LOVERS ",
+      "tasty lip-smacking flavor with all the protection of a traditional lip balm."
+      ],
+    "image": "dill-pickle-lip-balm.jpg"
+  },
+
+  {
+    "name" : "A pail of 10 preserved crayfish",
+    "price" : 12.50,
+    "dealDescription" : "For those in the market for crayfish you can keep forever without any upkeep, look no further.",
+    "itemFeatures" : [
+      "Crayfish are members of the phylum Arthropoda",
+      "Perfect specimens to convey to students the relationship between structure, function, and the environment",
+      "Plain: No color injection"
+    ],
+    "image": "preserved-crayfish.jpg"
+  },
+
+  {
+    "name" : "A pigeon mask",
+    "price" : 27.48,
+    "dealDescription" : "You can finally roam the neighborhood in peace disguised in this lifelike pigeon mask.",
+    "itemFeatures" : [
+      "6.25\" high",
+      "Elope incorporated",
+      "Plastic Frame"
+    ],
+    "image": "pegion.jpg"
+    }
+  ]
+}
