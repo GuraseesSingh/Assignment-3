@@ -7,7 +7,7 @@ let header = document.querySelector('header');
 let section = document.querySelector('section');
 
 //The request URL for JSON File in server
-let requestURL = "https://guraseessingh.github.io/Assignment-3/js.deals.json";
+let requestURL = "https://guraseessingh.github.io/Assignment-3/js/deals.json";
 
 //creates an XHR object
 let obj = new XMLHttpRequest();
