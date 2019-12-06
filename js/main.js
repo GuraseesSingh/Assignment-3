@@ -22,7 +22,7 @@ obj.responseType = 'json';
 obj.send();
 
 
-// Step Seven - adding an event handler that listens for onload event of the JSON file/object
+// Eventhandler that listnes to onload() function
 obj.onload = function() {
   let deals = obj.response;
   console.log(deals);
@@ -60,7 +60,7 @@ function features(jsonObj) {
     let list = document.createElement('ul');
 
     //grab the data associated with image to set the src and alt attribute
-    image.setAttribute('src', 'https://guraseessingh.github.io/Assignment-3/pictures'' + deals[i].image);
+    image.setAttribute('src', 'https://guraseessingh.github.io/Assignment-3/pictures/' + deals[i].image);
     image.setAttribute('alt', deals[i].image );
 
     //Sets name, price, description
